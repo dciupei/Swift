@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABB3B3C1E49304F0055B006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABB3B3B1E49304F0055B006 /* Main.storyboard */; };
+		6ABF93DE1E492E28007AB5BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF93DD1E492E28007AB5BB /* AppDelegate.swift */; };
+		6ABF93E01E492E28007AB5BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF93DF1E492E28007AB5BB /* ViewController.swift */; };
+		6ABF93E51E492E28007AB5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF93E41E492E28007AB5BB /* Assets.xcassets */; };
+		6ABF93E81E492E28007AB5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABF93E61E492E28007AB5BB /* LaunchScreen.storyboard */; };
+		6ABF93F31E492E28007AB5BB /* Ten_Key_PadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF93F21E492E28007AB5BB /* Ten_Key_PadTests.swift */; };
+		6ABF93FE1E492E28007AB5BB /* Ten_Key_PadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABF93FD1E492E28007AB5BB /* Ten_Key_PadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABF93EF1E492E28007AB5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF93D21E492E28007AB5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF93D91E492E28007AB5BB;
+			remoteInfo = Ten_Key_Pad;
+		};
+		6ABF93FA1E492E28007AB5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABF93D21E492E28007AB5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABF93D91E492E28007AB5BB;
+			remoteInfo = Ten_Key_Pad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABB3B3B1E49304F0055B006 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6ABF93DA1E492E28007AB5BB /* Ten_Key_Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ten_Key_Pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF93DD1E492E28007AB5BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABF93DF1E492E28007AB5BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABF93E41E492E28007AB5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABF93E71E492E28007AB5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABF93E91E492E28007AB5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF93EE1E492E28007AB5BB /* Ten_Key_PadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ten_Key_PadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF93F21E492E28007AB5BB /* Ten_Key_PadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten_Key_PadTests.swift; sourceTree = "<group>"; };
+		6ABF93F41E492E28007AB5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABF93F91E492E28007AB5BB /* Ten_Key_PadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ten_Key_PadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABF93FD1E492E28007AB5BB /* Ten_Key_PadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ten_Key_PadUITests.swift; sourceTree = "<group>"; };
+		6ABF93FF1E492E28007AB5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABF93D71E492E28007AB5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93EB1E492E28007AB5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93F61E492E28007AB5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABF93D11E492E28007AB5BB = {
+			isa = PBXGroup;
+			children = (
+				6ABF93DC1E492E28007AB5BB /* Ten_Key_Pad */,
+				6ABF93F11E492E28007AB5BB /* Ten_Key_PadTests */,
+				6ABF93FC1E492E28007AB5BB /* Ten_Key_PadUITests */,
+				6ABF93DB1E492E28007AB5BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABF93DB1E492E28007AB5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF93DA1E492E28007AB5BB /* Ten_Key_Pad.app */,
+				6ABF93EE1E492E28007AB5BB /* Ten_Key_PadTests.xctest */,
+				6ABF93F91E492E28007AB5BB /* Ten_Key_PadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABF93DC1E492E28007AB5BB /* Ten_Key_Pad */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF93DD1E492E28007AB5BB /* AppDelegate.swift */,
+				6ABF93DF1E492E28007AB5BB /* ViewController.swift */,
+				6ABB3B3B1E49304F0055B006 /* Main.storyboard */,
+				6ABF93E41E492E28007AB5BB /* Assets.xcassets */,
+				6ABF93E61E492E28007AB5BB /* LaunchScreen.storyboard */,
+				6ABF93E91E492E28007AB5BB /* Info.plist */,
+			);
+			path = Ten_Key_Pad;
+			sourceTree = "<group>";
+		};
+		6ABF93F11E492E28007AB5BB /* Ten_Key_PadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF93F21E492E28007AB5BB /* Ten_Key_PadTests.swift */,
+				6ABF93F41E492E28007AB5BB /* Info.plist */,
+			);
+			path = Ten_Key_PadTests;
+			sourceTree = "<group>";
+		};
+		6ABF93FC1E492E28007AB5BB /* Ten_Key_PadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABF93FD1E492E28007AB5BB /* Ten_Key_PadUITests.swift */,
+				6ABF93FF1E492E28007AB5BB /* Info.plist */,
+			);
+			path = Ten_Key_PadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABF93D91E492E28007AB5BB /* Ten_Key_Pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF94021E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_Pad" */;
+			buildPhases = (
+				6ABF93D61E492E28007AB5BB /* Sources */,
+				6ABF93D71E492E28007AB5BB /* Frameworks */,
+				6ABF93D81E492E28007AB5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ten_Key_Pad;
+			productName = Ten_Key_Pad;
+			productReference = 6ABF93DA1E492E28007AB5BB /* Ten_Key_Pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABF93ED1E492E28007AB5BB /* Ten_Key_PadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF94051E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_PadTests" */;
+			buildPhases = (
+				6ABF93EA1E492E28007AB5BB /* Sources */,
+				6ABF93EB1E492E28007AB5BB /* Frameworks */,
+				6ABF93EC1E492E28007AB5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF93F01E492E28007AB5BB /* PBXTargetDependency */,
+			);
+			name = Ten_Key_PadTests;
+			productName = Ten_Key_PadTests;
+			productReference = 6ABF93EE1E492E28007AB5BB /* Ten_Key_PadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABF93F81E492E28007AB5BB /* Ten_Key_PadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABF94081E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_PadUITests" */;
+			buildPhases = (
+				6ABF93F51E492E28007AB5BB /* Sources */,
+				6ABF93F61E492E28007AB5BB /* Frameworks */,
+				6ABF93F71E492E28007AB5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABF93FB1E492E28007AB5BB /* PBXTargetDependency */,
+			);
+			name = Ten_Key_PadUITests;
+			productName = Ten_Key_PadUITests;
+			productReference = 6ABF93F91E492E28007AB5BB /* Ten_Key_PadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABF93D21E492E28007AB5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Ciupei";
+				TargetAttributes = {
+					6ABF93D91E492E28007AB5BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6ABF93ED1E492E28007AB5BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABF93D91E492E28007AB5BB;
+					};
+					6ABF93F81E492E28007AB5BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABF93D91E492E28007AB5BB;
+					};
+				};
+			};
+			buildConfigurationList = 6ABF93D51E492E28007AB5BB /* Build configuration list for PBXProject "Ten_Key_Pad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABF93D11E492E28007AB5BB;
+			productRefGroup = 6ABF93DB1E492E28007AB5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABF93D91E492E28007AB5BB /* Ten_Key_Pad */,
+				6ABF93ED1E492E28007AB5BB /* Ten_Key_PadTests */,
+				6ABF93F81E492E28007AB5BB /* Ten_Key_PadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABF93D81E492E28007AB5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABB3B3C1E49304F0055B006 /* Main.storyboard in Resources */,
+				6ABF93E81E492E28007AB5BB /* LaunchScreen.storyboard in Resources */,
+				6ABF93E51E492E28007AB5BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93EC1E492E28007AB5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93F71E492E28007AB5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABF93D61E492E28007AB5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF93E01E492E28007AB5BB /* ViewController.swift in Sources */,
+				6ABF93DE1E492E28007AB5BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93EA1E492E28007AB5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF93F31E492E28007AB5BB /* Ten_Key_PadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABF93F51E492E28007AB5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABF93FE1E492E28007AB5BB /* Ten_Key_PadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABF93F01E492E28007AB5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF93D91E492E28007AB5BB /* Ten_Key_Pad */;
+			targetProxy = 6ABF93EF1E492E28007AB5BB /* PBXContainerItemProxy */;
+		};
+		6ABF93FB1E492E28007AB5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABF93D91E492E28007AB5BB /* Ten_Key_Pad */;
+			targetProxy = 6ABF93FA1E492E28007AB5BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABF93E61E492E28007AB5BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABF93E71E492E28007AB5BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABF94001E492E28007AB5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABF94011E492E28007AB5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABF94031E492E28007AB5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ten_Key_Pad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ABF94041E492E28007AB5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ten_Key_Pad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6ABF94061E492E28007AB5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ten_Key_PadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-PadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ten_Key_Pad.app/Ten_Key_Pad";
+			};
+			name = Debug;
+		};
+		6ABF94071E492E28007AB5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ten_Key_PadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-PadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ten_Key_Pad.app/Ten_Key_Pad";
+			};
+			name = Release;
+		};
+		6ABF94091E492E28007AB5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Ten_Key_PadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-PadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ten_Key_Pad;
+			};
+			name = Debug;
+		};
+		6ABF940A1E492E28007AB5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Ten_Key_PadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wsu.vancouver.Ten-Key-PadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ten_Key_Pad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABF93D51E492E28007AB5BB /* Build configuration list for PBXProject "Ten_Key_Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF94001E492E28007AB5BB /* Debug */,
+				6ABF94011E492E28007AB5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF94021E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF94031E492E28007AB5BB /* Debug */,
+				6ABF94041E492E28007AB5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF94051E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_PadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF94061E492E28007AB5BB /* Debug */,
+				6ABF94071E492E28007AB5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABF94081E492E28007AB5BB /* Build configuration list for PBXNativeTarget "Ten_Key_PadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABF94091E492E28007AB5BB /* Debug */,
+				6ABF940A1E492E28007AB5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABF93D21E492E28007AB5BB /* Project object */;
+}
