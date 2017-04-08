@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireNetworkActivityIndicator (2.1.0):
+    - Alamofire (~> 4.1)
+  - SSKeychain (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireNetworkActivityIndicator (~> 2.0)
+  - SSKeychain
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireNetworkActivityIndicator: 4716f6554bdfb9c7cf13b1e0e3af21163129690a
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+
+PODFILE CHECKSUM: ed3bd58d6ee789ffd5b3a493c6505950e5bb589d
+
+COCOAPODS: 1.2.0
